@@ -1,0 +1,95 @@
+.wrapper .container {
+    position: relative;
+    background-image: url(/images/rent_object2.png);
+    padding: 286px 125px 337px;
+}
+
+.wrapper__box {
+    width: 669px;
+    height: 228px;
+    text-align: left;
+}
+
+.wrapper__box__title {
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 84.96px;
+    color: #FFFFFF;
+    line-height: 90%;
+    letter-spacing: -2%;
+}
+
+.wrapper__box__one {
+    width: 369px;
+    height: 144px;
+    text-align: left;
+    margin-top: 45px;
+}
+
+.wrapper__box__one__text {
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    color: #FFFFFF;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+
+.wrapper__box__two {
+    position: absolute;
+    top: 254px;
+    left: 358px;
+}
+
+.pages .container {
+    background-color: #151515;
+    padding: 106px 125px;
+}
+
+.pages__box {
+    display: flex;
+}
+.pages__box__one {
+    display: flex;
+    width: 708px;
+}
+.pages__box__list {
+    display: flex;
+    gap: 8px;
+    width: 460px;
+    margin-right: -50px;
+    align-items: end;
+}
+.pages__box__list__item {
+    display: flex;
+    gap: 9px;
+}
+.pages__box__title {
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 69.96px;
+    color: #FFFFFF;
+    line-height: 90%;
+    letter-spacing: -2%;
+}
+.pages__box__title__text {
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    color: #FFFFFF;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.pages__box__list__item__text {
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    color: #FFFFFF;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
