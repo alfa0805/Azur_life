@@ -51,10 +51,12 @@
 .pages__box {
     display: flex;
 }
+
 .pages__box__one {
     display: flex;
     width: 708px;
 }
+
 .pages__box__list {
     display: flex;
     gap: 8px;
@@ -62,10 +64,12 @@
     margin-right: -50px;
     align-items: end;
 }
+
 .pages__box__list__item {
     display: flex;
     gap: 9px;
 }
+
 .pages__box__title {
     font-family: Playfair Display;
     font-weight: 400;
@@ -75,6 +79,7 @@
     line-height: 90%;
     letter-spacing: -2%;
 }
+
 .pages__box__title__text {
     font-family: Manrope;
     font-weight: 400;
@@ -84,6 +89,7 @@
     line-height: 100%;
     letter-spacing: 0%;
 }
+
 .pages__box__list__item__text {
     font-family: Manrope;
     font-weight: 400;
@@ -91,5 +97,196 @@
     font-size: 15px;
     color: #FFFFFF;
     line-height: 160%;
+    letter-spacing: 0%;
+}
+
+.pages__box__two {
+    position: relative;
+    height: 100%;
+}
+
+.pages__box__two__image {
+    position: absolute;
+    top: 132px;
+}
+
+.pages__box__two__image__one {
+    position: absolute;
+    top: 115px;
+    left: 606px;
+}
+
+.pages__box__three {
+    width: 1100px;
+    height: 576px;
+    margin-top: 178px;
+    text-align: left;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-bottom: 200px;
+}
+
+.pages__box__three__title {
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20.26px;
+    color: #FFFFFF;
+    line-height: 120%;
+    letter-spacing: 0%;
+    width: 300px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.pages__box__three__text {
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 11.82px;
+    color: #FFFFFF;
+    line-height: 151%;
+    letter-spacing: 0%;
+    width: 300px;
+    margin-top: 36px;
+    margin-left: 20px;
+}
+
+.pages__box__three__text__one {
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 151%;
+    letter-spacing: 0%;
+    width: 300px;
+    margin-top: 26px;
+}
+
+.pages__box__three__text__two {
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-top: 100px;
+    width: 300px;
+}
+
+.pages__box__six {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.pages__box__five {
+    display: flex;
+    gap: 8px;
+}
+
+.pages__box__five__text {
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 151%;
+    letter-spacing: 0%;
+}
+
+.pages__box__three__btn {
+    width: 188px;
+    height: 57px;
+    opacity: 1;
+    border-radius: 7px;
+    background-color: #FFFFFF12;
+    border: none;
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    color: #FFFFFF;
+    line-height: 160%;
+    letter-spacing: 0%;
+    cursor: pointer;
+}
+
+.pages__box__two__images {
+    position: absolute;
+    left: 75px;
+}
+
+.pages__box__two__images__one {
+    position: absolute;
+    left: 515px;
+    top: -20px;
+}
+
+.pages__box__two__imagess {
+    position: absolute;
+    top: -115px;
+}
+
+.pages__box__six__one {
+    display: flex;
+    margin-top: 270px;
+}
+
+.pages__box__three__text__twoo {
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.pages__box__three__text__onee {
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 151%;
+    letter-spacing: 0%;
+}
+
+.pages__box__two {
+    margin-bottom: -20px;
+}
+
+.pages__box__seven {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pages__box__seven__one {
+    gap: 5px;
+}
+
+.pages__box__seven__one__link {
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 120%;
+    letter-spacing: 0%;
+    border-bottom: 1px solid #FFFFFF;
+}
+.pages__box__seven__one__link__one{
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 120%;
     letter-spacing: 0%;
 }
