@@ -3,13 +3,11 @@
     background-image: url(/images/rent_object2.png);
     padding: 286px 125px 337px;
 }
-
 .wrapper__box {
     width: 669px;
     height: 228px;
     text-align: left;
 }
-
 .wrapper__box__title {
     font-family: Playfair Display;
     font-weight: 400;
@@ -19,14 +17,12 @@
     line-height: 90%;
     letter-spacing: -2%;
 }
-
 .wrapper__box__one {
     width: 369px;
     height: 144px;
     text-align: left;
     margin-top: 45px;
 }
-
 .wrapper__box__one__text {
     font-family: Manrope;
     font-weight: 400;
@@ -36,27 +32,22 @@
     line-height: 160%;
     letter-spacing: 0%;
 }
-
 .wrapper__box__two {
     position: absolute;
     top: 254px;
     left: 358px;
 }
-
 .pages .container {
     background-color: #151515;
     padding: 106px 125px;
 }
-
 .pages__box {
     display: flex;
 }
-
 .pages__box__one {
     display: flex;
     width: 708px;
 }
-
 .pages__box__list {
     display: flex;
     gap: 8px;
@@ -64,12 +55,10 @@
     margin-right: -50px;
     align-items: end;
 }
-
 .pages__box__list__item {
     display: flex;
     gap: 9px;
 }
-
 .pages__box__title {
     font-family: Playfair Display;
     font-weight: 400;
@@ -79,7 +68,6 @@
     line-height: 90%;
     letter-spacing: -2%;
 }
-
 .pages__box__title__text {
     font-family: Manrope;
     font-weight: 400;
@@ -89,7 +77,6 @@
     line-height: 100%;
     letter-spacing: 0%;
 }
-
 .pages__box__list__item__text {
     font-family: Manrope;
     font-weight: 400;
@@ -99,23 +86,19 @@
     line-height: 160%;
     letter-spacing: 0%;
 }
-
 .pages__box__two {
     position: relative;
     height: 100%;
 }
-
 .pages__box__two__image {
     position: absolute;
     top: 132px;
 }
-
 .pages__box__two__image__one {
     position: absolute;
     top: 115px;
     left: 606px;
 }
-
 .pages__box__three {
     width: 1100px;
     height: 576px;
@@ -127,7 +110,6 @@
     align-items: end;
     margin-bottom: 200px;
 }
-
 .pages__box__three__title {
     font-family: Manrope;
     font-weight: 400;
@@ -140,7 +122,6 @@
     margin-top: 60px;
     margin-left: 20px;
 }
-
 .pages__box__three__text {
     font-family: Manrope;
     font-weight: 400;
@@ -153,7 +134,6 @@
     margin-top: 36px;
     margin-left: 20px;
 }
-
 .pages__box__three__text__one {
     font-family: Manrope;
     font-weight: 400;
@@ -165,7 +145,6 @@
     width: 300px;
     margin-top: 26px;
 }
-
 .pages__box__three__text__two {
     font-family: Manrope;
     font-weight: 400;
@@ -177,19 +156,16 @@
     margin-top: 100px;
     width: 300px;
 }
-
 .pages__box__six {
     width: 300px;
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
 }
-
 .pages__box__five {
     display: flex;
     gap: 8px;
 }
-
 .pages__box__five__text {
     font-family: Manrope;
     font-weight: 400;
@@ -199,7 +175,6 @@
     line-height: 151%;
     letter-spacing: 0%;
 }
-
 .pages__box__three__btn {
     width: 188px;
     height: 57px;
@@ -216,28 +191,23 @@
     letter-spacing: 0%;
     cursor: pointer;
 }
-
 .pages__box__two__images {
     position: absolute;
     left: 75px;
 }
-
 .pages__box__two__images__one {
     position: absolute;
     left: 515px;
     top: -20px;
 }
-
 .pages__box__two__imagess {
     position: absolute;
     top: -115px;
 }
-
 .pages__box__six__one {
     display: flex;
     margin-top: 270px;
 }
-
 .pages__box__three__text__twoo {
     font-family: Manrope;
     font-weight: 400;
@@ -247,7 +217,6 @@
     line-height: 120%;
     letter-spacing: 0%;
 }
-
 .pages__box__three__text__onee {
     font-family: Manrope;
     font-weight: 400;
@@ -257,7 +226,6 @@
     line-height: 151%;
     letter-spacing: 0%;
 }
-
 .pages__box__two {
     margin-bottom: -20px;
 }
@@ -266,11 +234,9 @@
     display: flex;
     justify-content: space-between;
 }
-
 .pages__box__seven__one {
     gap: 5px;
 }
-
 .pages__box__seven__one__link {
     font-family: Manrope;
     font-weight: 400;
@@ -289,4 +255,116 @@
     color: #FFFFFF;
     line-height: 120%;
     letter-spacing: 0%;
+}
+@media(max-width: 600px){
+    .wrapper .container{
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        padding-left: 20px;
+    }
+    .wrapper__box{
+        width: 100%;
+        margin-top: -160px;
+
+    }
+    .wrapper__box__title{
+        font-size: 40px;
+    }
+    .wrapper__box__one{
+        width: 100%;
+        margin-top: -100px;
+    }
+    .wrapper__box__one__text{
+        font-size: 14px;
+    }
+    .wrapper__box__two{
+        position: absolute;
+        top: 120px;
+    }
+    .pages .container{
+        padding-left: 20px;
+    }
+    .pages__box{
+        flex-direction: column;
+    }
+    .pages__box__one{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .pages__box__title{
+        font-size: 40px;
+    }
+    .pages__box__list__item{
+        font-size: 14px;
+    }
+    .pages__box__two__image{
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .pages__box__two{
+        margin-top: -60px;
+    }
+    .pages__box__two__image__one{
+        position: absolute;
+        left: 370px;
+    }
+    .pages__box__three{
+        width: 100%;
+        align-items: start;
+        
+    }
+    .pages__box__three__title{
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .pages__box__three__text{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .pages__box__three__text__one{
+        margin-top: 20px;
+    }
+    .pages__box__three__text__two{
+        margin-top: 20px;
+    }
+    .pages__box__six{
+        margin-top: 20px;
+    }
+    .pages__box__two__images{
+        position: relative;
+        width: 100%;
+        height: auto; 
+        margin-left: -80px;
+        margin-top: -350px;
+        margin-bottom: -100px;
+    }
+    .pages__box__two__images__one{
+        position: absolute;
+        left: 360px;
+        top: -370px;
+    }
+    .pages__box__three__btn{
+        margin-left: 20px;
+    }
+    .pages__box__two__imagess{
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-top: -300px;
+        margin-bottom: -200px;
+    }
+    .pages__box__seven{
+        margin-top: -300px;
+    }
+    .pages__box__seven__one__link{
+        font-size: 16px;
+    }
+    .pages__box__seven__one__link__one{
+        font-size: 16px;
+    }
+    .pages__box__list{
+        width: 100%;
+    }
 }
