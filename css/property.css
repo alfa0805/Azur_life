@@ -16,7 +16,6 @@ body {
   padding: 0px 20px;
 }
 .hero {
-  border: 1px solid #000;
   height: 918px;
   background-image: url("../images/hero__image.png");
   position: relative;
@@ -425,4 +424,82 @@ body {
 }
 .form__input:focus {
   color: #000;
+}
+@media (max-width: 780px) {
+  .hero {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    background-size: cover;
+    background-position: center;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 100px;
+  }
+  .hero__title {
+    width: 400px;
+    height: 150px;
+    font-size: 48px;
+  }
+  .hero__text {
+    font-size: 20px;
+  }
+  .hero__description {
+    font-size: 16px;
+  }
+  .stat__card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+  }
+  .left__side {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .left__side--name {
+    font-size: 60px;
+  }
+  .left__side--name img{
+    width: 70px;
+    height: 70px;
+  }
+  .left__side-description {
+    font-size: 20px;
+  }
+  .right__side {
+    display: flex;
+    align-items: center;
+  }
+  .manage {
+  }
+  .manage__text {
+  }
+  .manage__title {
+  }
+  .texts1 {
+  }
+  .text1 {
+  }
+  .text2 {
+  }
+  .texts2 {
+  }
+  .text3 {
+  }
+  .text4 {
+  }
+  .manage__tekst {
+  }
+  .manage__description {
+  }
+  .manage__link {
+  }
+  .manage__image {
+  }
+  .img {
+  }
 }
