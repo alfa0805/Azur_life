@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;  
+}
+
+.section{
+    max-width:1240px;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-image: url(/Azur_life/images/bacground1.png);
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.container__subtitle{
+    width: 577px;
+    font-family: Playfair Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 84.835px;
+font-weight: normal;
+line-height: 90%;
+letter-spacing: 1px;
+color: white;
+}
+.container__title{
+    color: white;
+    font-family: Manrope;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0%;
+align-items: center;
+}
