@@ -7,6 +7,7 @@
     <!-- <link rel="stylesheet" href="../css/header.css"> -->
     <link rel="stylesheet" href="../css/all-objects.css">
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,35 +20,99 @@
 <body>
 
     <header class="header">
-        <div class="container">
-            <div class="header__box-left">
-                <div class="header__box">
-                    <img src="../images/all-objects/header-logo.svg" alt="" class="header__logo">
-                    <a href="../index.html" class="header__link header__link--active">Azur Life</a>
-                </div>
-                <hr class="header__line">
-                <div class="header__box">
-                    <img src="../images/all-objects/header-icon-1.svg" alt="" class="header__icon">
-                    <a href="#" class="header__link">
-                        Франция, бульвар Леклерк, 46, 06310, Болье-сюр-Мер
-                    </a>
-                </div>
-                <hr class="header__line">
-                <div class="header__box">
-                    <img src="../images/all-objects/header-icon-2.svg" alt="" class="header__icon">
-                    <a href="#" class="header__link">+33 4 93 16 06 31</a>
-                </div>
-            </div>
-            <div class="header__box-right">
-                <p class="header__text header__text--active">en</p>
-                <p class="header__text">fr</p>
-                <p class="header__text">ru</p>
-                <p class="header__text">it</p>
-                <div class="header__img">
-                    <img src="../images/all-objects/header-icon-3.svg" alt="" class="header__icon">
-                </div>
-            </div>
+      <div class="container">
+        <div class="header__box-left">
+          <div class="header__box">
+            <img
+              src="../images/all-objects/header-logo.svg"
+              alt=""
+              class="header__logo"
+            />
+            <a href="../index.html" class="header__link header__link--active"
+              >Azur Life</a
+            >
+          </div>
+          <hr class="header__line" />
+          <div class="header__box">
+            <img
+              src="../images/all-objects/header-icon-1.svg"
+              alt=""
+              class="header__icon"
+            />
+            <a href="#" class="header__link">
+              Франция, бульвар Леклерк, 46, 06310, Болье-сюр-Мер
+            </a>
+          </div>
+          <hr class="header__line" />
+          <div class="header__box">
+            <img
+              src="../images/all-objects/header-icon-2.svg"
+              alt=""
+              class="header__icon"
+            />
+            <a href="#" class="header__link">+33 4 93 16 06 31</a>
+          </div>
         </div>
+        <div class="header__box-right">
+          <p class="header__text header__text--active">en</p>
+          <p class="header__text">fr</p>
+          <p class="header__text">ru</p>
+          <p class="header__text">it</p>
+          <button id="openmenu" class="header__img">
+            <img
+              src="../images/all-objects/header-icon-3.svg"
+              alt=""
+              class="header__icon"
+            />
+          </button>
+        </div>
+      </div>
+
+      <div class="menu ">
+        <div class="header__box-right">
+          <p class="header__text header__text--active">en</p>
+          <p class="header__text">fr</p>
+          <p class="header__text">ru</p>
+          <p class="header__text">it</p>
+          <button id="closemenu" class="header__img">X</button>
+        </div>
+
+        <ul class="header-list">
+          <li class="header-item">
+            <a href="./about.html" class="header-link">O nac</a>
+          </li>
+
+          <li class="header-item">
+            <a href="./all_objects.html" class="header-link">Все объекты</a>
+          </li>
+
+          <li class="header-item">
+            <a href="./property_meneger.html" class="header-link">Продажа</a>
+          </li>
+
+          <li class="header-item">
+            <a href="./bay_sell.html" class="header-link">Аренда</a>
+          </li>
+
+          <li class="header-item">
+            <a href="./rent_objects.html" class="header-link">Блог</a>
+          </li>
+
+          <li class="header-item">
+            <a href="./seles_objects.html" class="header-link">Присоединиться к нам</a>
+          </li>
+
+          <li class="header-item">
+            <a href="./export.html" class="header-link"
+              >Купить, продать, арендовать с нами</a
+            >
+          </li>
+
+          <li class="header-item">
+            <a href="./service.html" class="header-link">Экспертная оценка</a>
+          </li>
+        </ul>
+      </div>
     </header>
 
     <main class="main">
@@ -326,6 +391,9 @@
             </div>
         </div>
     </footer>
+
+
+    <script src="/script.js"></script>
 </body>
 
 </html>
