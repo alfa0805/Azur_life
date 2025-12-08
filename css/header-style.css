@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playfair+Display:wght@400..900&display=swap');
+
+
+
+.header {
+  background: transparent;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.header__box-left {
+  display: flex;
+  gap: 20px;
+}
+
+.header__link {
+  font-family: "Manrope";
+  color: #fff;
+}
+
+.header__box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header__box-right {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.header__text {
+  font-family: "Manrope";
+  color: #fff;
+  cursor: pointer;
+}
+
+.header__text--active {
+  border-bottom: 1px solid #fff;
+}
+
+.header__img {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+@media (max-width: 1050px){
+  .header__link{
+    display: none;
+  }
+  .header__link--active{
+    display: inline-block;
+  }
+}
+
+@media (max-width: 550px){
+  .header__line{
+    display: none;
+  }
+  .header__box-left{
+    gap: 15px;
+  }
+  .header__box-right{
+    gap: 10px;
+  }
+  .header__img{
+    width: auto;
+  }
+ 
+}
