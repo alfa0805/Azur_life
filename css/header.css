@@ -3,15 +3,18 @@
 
 
 .header {
-  background: transparent;
+  /* background: transparent; */
   width: 100%;
   position: fixed;
   z-index: 999;
   display: flex;
   justify-content: center;
+  background-color: rgba(0, 0, 0, 0.34);
+  backdrop-filter:blur(10px);
 }
 
 .header .container {
+  /* background-color: black; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -73,7 +76,8 @@
     transition: all 0.3S;
     width: 40%;
     height: 100dvh;
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: rgba(0, 0, 0, 0.735);
+    backdrop-filter:blur(30px);
 
     display: flex;
     flex-direction: column;
