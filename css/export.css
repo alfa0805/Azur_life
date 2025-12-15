@@ -1,0 +1,278 @@
+.hero {
+  background-image: url(../images/export/imageBg1.png);
+  background-position: center;
+  background-size: cover;
+  height: 120vh;
+}
+
+.hero__nav {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero__link {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 14px;
+  color: #e4ddddf0;
+}
+
+.hero__link-active {
+  color: #ffffff;
+}
+
+.hero__box {
+  margin-top: 120px;
+  width: 500px;
+}
+
+.hero__title {
+  font-family: " Playfair Display";
+  font-weight: 400;
+  font-size: 84px;
+  color: #fff;
+  line-height: 0.8;
+}
+
+.hero__title-span {
+  font-size: 20px;
+}
+
+.hero__text {
+  margin-top: 25px;
+  width: 360px;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+}
+
+.azur {
+  height: 90px;
+  position: relative;
+  background: #000;
+}
+
+
+.azur__wrapper {
+  width: 90%;
+  height: 300px;
+  padding: 0 60px;
+  position: absolute;
+  top: -90px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.azur__left {
+  position: relative;
+}
+
+.azur__title {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 84.96px;
+  line-height: 0.9;
+}
+
+.azur__image {
+  position: absolute;
+  top: -30px;
+  right: -60px;
+}
+
+.azur__text {
+  margin-top: 10px;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.azur__right {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.azur__title-namber {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 84px;
+}
+
+.azur__saptitle {
+  width: 110px;
+  text-align: center;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.azur__saptitle--style {
+  padding-left: 5px;
+  text-align: left;
+}
+
+.forms {
+  background-image: url(../images/export/imageBg2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 220px;
+  padding-bottom: 20px;
+}
+
+.forms__text {
+  text-align: center;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+}
+
+.forms__title {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 84px;
+  text-align: center;
+  color: #fff;
+}
+
+.forms_form-wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.forms__form {
+  margin-top: 50px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.forms__input {
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  background: transparent;
+  outline: none;
+  border: 1px solid #8180807c;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.forms__box {
+  margin-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+/* 
+.forms__checkbox{
+  background-color: transparent;
+  border: none;
+} */
+
+.form__text {
+  width: 210px;
+  font-family: "Manrope";
+  font-weight: 300;
+  font-size: 12px;
+  color: #818080;
+}
+
+.forms__btn {
+  padding: 10px 20px;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #818080;
+  border: 1px solid #8180807c;
+  background: transparent;
+  border-radius: 15px;
+}
+
+.forms__wrapper {
+  width: 100%;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.forms__box-left,
+.forms__box-right{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.forms__link {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+}
+
+.forms__link--border{
+  padding-bottom: 5px;
+  border-bottom: 2px solid #fff;
+}
+
+@media (max-width: 1050px){
+  .azur{
+    display: none;
+  }
+  .forms__title{
+    font-size: 50px;
+  }
+  .forms__link{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 550px){
+  .hero__box{
+    width: 290px;
+  }
+  .hero__title{
+    font-size: 50px;
+  }
+  .hero__text{
+    width: 250px;
+    font-size: 12px;
+  }
+  .forms{
+    padding-top: 120px;
+  }
+  .forms__form{
+    margin-top: 20px;
+  }
+  .forms__title{
+    font-size: 40px;
+  }
+  .forms__input{
+    width: 280px;
+    height: 40px;
+  }
+  .form__text{
+    width: 130px;
+  }
+  .forms__btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  .forms__link{
+    border: none;
+  }
+}
